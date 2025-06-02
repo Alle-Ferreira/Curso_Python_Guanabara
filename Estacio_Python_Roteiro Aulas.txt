@@ -1,0 +1,31 @@
+Curso em Vídeo:
+
+1. Pendencias:
+- Exercicio 21 (mp3):                  não resolvido
+
+
+2. Módulo 2 - Python Básico
+
+Aula 01: sem Exercicios			ok
+Aula 02: sem Exercicios			ok
+Aula 03: sem Exercicios			ok
+Aula 04: sem Exercicios			ok
+Aula 05: Exercicios 01 e 02		ok
+Aula 06: Exercicios 03 e 04		ok
+Aula 07: Exercicios 05 a 10		ok
+Aula 08: Bibliotecas e módulos		--
+Aula 09: Exercícios 11 a 25		ok
+
+
+3. Módulo 3 - Python Estruturado
+
+Aula 10: Exercicios 26 a 30		ok
+	 Exercicios 31 a 35		ok
+Aula 11: Cores no Terminal		--
+Aula 12: Exercicios 36 a 45
+Aula 13: Exercicios 46 a 56
+Aula 14: Exercícios 57 a 65
+Aula 15: Exercícios 66 a 
+
+
+
