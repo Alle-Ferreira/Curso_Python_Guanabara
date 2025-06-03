@@ -148,6 +148,8 @@ Programa para jogar Jokenpô.
 Regras: pedra quebra tesoura, tesoura corta papel, papel embrulha pedra.
 '''
 
+#Sintaxe 1
+
 from time import sleep
 from random import randint
 
@@ -168,9 +170,10 @@ sleep(2)
 print('2..')
 sleep(2)
 print('3..')
-escolha_usuario = int(input('Sua escolha: '))                       # Entrada do jogador   
 
+escolha_usuario = int(input('Sua escolha: '))                       # Entrada do jogador   
 escolha_computador = randint(1, 3)                                  # "Entrada" do computador
+
 for numero, nome in escolhas:                                       # Identifica o 'nome' da escolha do computador
     if numero == escolha_computador:
         nome_escolha_computador = nome
@@ -200,7 +203,8 @@ else:
 print()
 
 
-#Sintaxe 2: limitada a posição dos itens nula lista:
+
+#Sintaxe 2: limitada a posição dos itens numa lista:
 
 from random import randint
 
