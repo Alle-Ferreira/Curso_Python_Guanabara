@@ -1,0 +1,29 @@
+'''Exercício 066 - Vários Números com Flag
+Crie um programa que leia vários números inteiros pelo teclado. O programa só vai parar quando o usuário digitar o valor 999, que é a condição de parada. No final, mostre quantos números foram digitados e qual foi a soma entre eles (desconsiderando o flag).   
+# Dicas:
+# - O programa deve continuar lendo números até que o usuário decida parar. 
+# - A soma é a adição de todos os valores lidos.
+# - O programa deve perguntar ao usuário se ele quer continuar a digitar valores ou não.
+# - Se o usuário digitar 0, o programa deve parar e mostrar a soma dos valores lidos.
+# - Se o usuário digitar um número negativo, o programa deve ignorar esse número e continuar lendo os próximos valores.
+# - Se o usuário digitar um número positivo, o programa deve atualizar a soma dos valores lidos.
+# - O programa deve ser capaz de lidar com entradas inválidas, como letras ou símbolos, e continuar funcionando normalmente.
+# - O programa deve ser capaz de lidar com entradas válidas, como números inteiros positivos e negativos, e continuar funcionando normalmente.
+'''
+
+'''Exercício 067 - Tabuada_v.03
+Crie um programa que mostre a tabuada de vários números, um de cada vez, para cada valor digitado pelo usuário. O programa será interrompido quando o número solicitado for negativo.   
+# Dicas:'''
+
+
+'''Exercício 068 - Jogo do Par ou Ímpar_v.04
+Crie um programa que jogue par ou ímpar com o computador. O jogo só será interrompido quando o jogador perder, mostrando o total de vitórias consecutivas que ele conquistou no final do jogo. 
+# Dicas:
+# - O jogador deve escolher um número inteiro positivo e o computador deve escolher um número inteiro aleatório entre 0 e 10.
+# - O jogador deve escolher se quer jogar par ou ímpar.
+# - O jogo deve continuar até que o jogador perca, ou seja, quando o resultado da soma dos números for ímpar e o jogador escolheu par, ou quando o resultado da soma dos números for par e o jogador escolheu ímpar.
+# - O programa deve mostrar o total de vitórias consecutivas do jogador no final do jogo.
+# - O programa deve ser capaz de lidar com entradas inválidas, como letras ou símbolos, e continuar funcionando normalmente.
+# - O programa deve ser capaz de lidar com entradas válidas, como números inteiros positivos e negativos, e continuar funcionando normalmente.
+'''
+
