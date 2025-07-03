@@ -49,13 +49,77 @@ Exercício 053 - Verificador de Palindromo
 Crie um programa que leia uma frase qualquer e diga se ela é um palíndromo, desconsiderando os espaços.
 '''
 
+frase = input('Insira a frase a ser avaliada: ').strip().lower()
+
+frase_sem_espacos = frase.replace(' ', '')
+frase_invertida = frase_sem_espacos [::-1]
+
+if frase_sem_espacos == frase_invertida:
+    print('A frase é um palindromo')
+else:
+    print('A frase não é um palindromo')
+
 
 '''Exercício 054 - Grupo da Maioridade 
 Crie um programa que leia o ano de nascimento de sete pessoas. No final, mostre quantas pessoas ainda não atingiram a maioridade e quantas já são maiores.
 '''
+from datetime import date
+
+maioridade = 18
+ano_atual = date.today().year
+ano_nascimentos = []
+contador_maioridade = 0
+contador_menoridade = 0
+
+for pessoas in range(1, 8):
+    ano = int(input(f'Em que ano a pessoa {pessoas} nasceu? '))
+    ano_nascimentos.append(ano)
+    print(f'Pessoa {pessoas} nasceu no ano {ano}, e tem {ano_atual - ano} anos.\n')
+
+for ano in ano_nascimentos:
+    if (ano_atual - ano) >= maioridade:
+        contador_maioridade += 1
+    else:
+        contador_menoridade += 1
+
+print(f'Pessoas maiores de idade: {contador_maioridade}')
+print(f'Pessoas menores de idade: {contador_menoridade}')
+print()
+
 
 
 '''Exercício 055 - Maior e Menor da Sequência
 Faça um programa que leia o peso de cinco pessoas. No final, mostre qual foi o maior e o menor peso lidos.
 '''
+pesos = []
+menor_peso = min(pesos)                             # Encontra o menor valor na lista
+maior_peso = max(pesos)                             # Encontra o maior valor na lista
 
+for pessoa in range (1, 6):
+    peso = float(input(f'Qual o peso da {pessoa}a pessoa? '))
+    pesos.append(peso)
+
+print(f'O menor peso lido foi {menor_peso} kg.')
+print(f'O maior peso lido foi {maior_peso} kg.')
+
+
+# Sintaxe alternativa:
+
+pesos = []
+maior_peso = 0
+menor_peso = 0
+
+for pessoa in range (1, 6):
+    peso = float(input(f'Qual o peso da {pessoa}a pessoa? '))
+    pesos.append(peso)
+
+    if menor_peso == 0 or peso < menor_peso:
+        menor_peso = peso
+        if maior_peso == 0:
+            maior_peso = peso
+    else:
+       if peso > maior_peso:
+        maior_peso = peso
+        
+print(f'O menor peso lido foi {menor_peso} kg.')
+print(f'O maior peso lido foi {maior_peso} kg.')
