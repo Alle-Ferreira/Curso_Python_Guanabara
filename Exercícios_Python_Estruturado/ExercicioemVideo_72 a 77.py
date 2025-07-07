@@ -161,13 +161,15 @@ for nome, preco in produtos:                    # Formato simples
     print(f'{nome}: R$ {preco:.2f}')
 print()
 
-print('-' * 20)
-print('Lista de Preços'.center(20))
-print(f'{"Produto":<10}{"Preço":>10}')          # Formato Tabulado
-print('-' * 20)
-for nome, preco in produtos:
-    print(f'{nome:<10}R${preco:>8.2f}')
 
+print('Lista de Preços'.center(30))
+print('-' * 30)
+print(f'{"Produto":<15}{"Preço":^15}')          # Formato Tabulado
+print('-' * 30)
+for nome, preco in produtos:
+    print(f'{nome:<20}R${preco:>8.2f}')
+print('-' * 30)
+print()
 
 
 '''Exercício Python 077 - Contando vogais em Tupla
@@ -181,6 +183,3 @@ for jogo in jogos:
     for letra in jogo.upper():
         if letra in VOGAIS:
             print(letra, end=' ')
-
-    
-
