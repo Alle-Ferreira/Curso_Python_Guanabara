@@ -1,5 +1,3 @@
-'''Aula 22 - Tempo do vídeo: 26m50seg'''
-
 #from funcoes_uteis import moeda, validacao_entradas
 
 #numero = validacao_entradas.leia_int('Digite um numero inteiro: ')
@@ -59,7 +57,7 @@ Crie um pacote chamado utilidadesCeV que tenha dois módulos internos chamados m
 '''Exercício Python 112 - Entrada de dados monetários
 Dentro do pacote utilidadesCeV que criamos no desafio 111, temos um módulo chamado dado. Crie uma função chamada leia_Dinheiro() que seja capaz de funcionar como a função input(), mas com uma validação de dados para aceitar apenas valores que sejam monetários.'''
 
-numero = dados.leia_Dinheiro('Digite o valor principal: R$ ')
-fator = dados.leia_Dinheiro('Digite o valor do ajuste: R$ ')
+numero = dados.leia_dinheiro('Digite o valor principal: R$ ')
+fator = dados.leia_dinheiro('Digite o valor do ajuste: R$ ')
 
 moeda.exibir_resumo(numero, fator, formatar=True)

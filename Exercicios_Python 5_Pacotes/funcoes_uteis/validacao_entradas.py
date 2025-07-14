@@ -20,7 +20,7 @@ def leia_int(msg):
             print('Erro: por favor, digite um número inteiro válido.')
 
 
-#3. Função leia_sn(msg)
+#3. Função verificação sim/não
 
 def leia_resposta(msg):
     while True:
@@ -28,3 +28,17 @@ def leia_resposta(msg):
         if resposta in ('S', 'N'):
             return resposta
         print('Erro: digite apenas S ou N.')
+
+
+# 4. Função para leitura de valores monetarios
+
+def leia_dinheiro(msg):
+    while True:
+        entrada = input(msg).strip()
+        # Remover R$, espaços e normalizar decimal
+        entrada = entrada.replace('R$', '').replace('r$', '').replace(' ', '').replace('.', '').replace(',', '.')
+        try:
+            valor = float(entrada)
+            return valor
+        except ValueError:
+            print('\033[31mERRO! Por favor, digite um valor monetário válido.\033[m')

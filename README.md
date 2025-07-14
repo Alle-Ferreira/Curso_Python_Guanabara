@@ -1,1 +1,1 @@
-# Curso_Python_Guanabara
+# Curso_Python_Guanabara - Exercicios
