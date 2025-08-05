@@ -53,22 +53,3 @@ else:
     print(site.read())              #faz a leitura do site
 
 
-
-'''
-Exercício Python 115 - Menu usando modularização.
-Crie um pequeno sistema de modularização, em um arquivo de texto simples:
-- Atributos: nome e idade
-- Funcionalidades: cadastrar e listar pessoas.
-
-Etapas:
-a) Criar um menu em Python: 
-   - Incluir título, cores e barras de separação para o menu de opções.
-   - Incluir opção para "Sair do sistema".
-   - Validar entradas.
-
-b) Arquivos com Python: acesso a arquivos usando o Python.
-   - Incluir armazenamento de dados em arquivo de texto simples.
-
-c) Manipulação de Arquivos
-'''
-
