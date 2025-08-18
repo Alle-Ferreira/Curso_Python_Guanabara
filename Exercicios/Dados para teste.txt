@@ -1,0 +1,9 @@
+Nome	     Genero   Idade   Gols
+
+Gustavo		M	38	3
+Paulo		M	 8	2
+Pedro		M	21	1
+
+Maria		F	33
+Patricia	F	18
+Margarida	F	 5
